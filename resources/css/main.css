@@ -129,6 +129,15 @@ a {
 	#contact .container {
 		max-width: none;
 	}
+	.insta img {
+		width: 29px;
+	}
+
+	#send {
+		width: 50%;
+	}
+
+
 }
 
 }
