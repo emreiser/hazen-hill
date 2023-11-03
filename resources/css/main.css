@@ -72,6 +72,10 @@ input, textarea {
 	margin-bottom: 5px;
 }
 
+.insta {
+	margin-top: 25px;
+}
+
 .insta img {
 	width: 25px;
 	padding-right: 10px;
@@ -102,7 +106,7 @@ a {
 
 .insta a {
 	color:  #707070;
-	font-size: 15px;
+	font-size: 16px;
 
 }
 
