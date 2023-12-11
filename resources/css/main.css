@@ -22,11 +22,11 @@ h4, span.lead {
 	padding-top: 20px;
 }
 
-#gallery img {
+.gallery img {
 	width: 100%;
 }
 
-#gallery {
+.gallery {
 	max-width: 1000px;
 	padding-bottom: 25px;
 }
@@ -51,6 +51,31 @@ h4, span.lead {
 .section {
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+.col-6 {
+	padding-bottom: .5rem!important;
+}
+
+#holiday-gallery {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#holiday-shop {
+	padding-top: 30px;
+}
+
+#holiday-shop p {
+	font-size: .8em;
+}
+
+.item {
+	padding-bottom: 25px;
+}
+
+.shop h1, h2, h3, h4 {
+	font-weight: 300;
 }
 
 .description {
@@ -85,7 +110,11 @@ a {
 	color: #31b6a8;
 }
 
-#send {
+.form-control, .btn {
+	font-weight: 300;
+}
+
+.hh-button {
   --bs-btn-color: #fff;
   --bs-btn-bg: #2ca295;
   --bs-btn-border-color: #2ca295;
@@ -114,7 +143,7 @@ a {
 	text-decoration: none;
 }
 
-#gallery {
+.gallery {
   /* Prevent vertical gaps */
   line-height: 0;
    
@@ -126,7 +155,7 @@ a {
   column-gap:           5px;  
 }
 
-#gallery img {
+.gallery img {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
@@ -134,7 +163,7 @@ a {
 }
 
 @media (max-width: 600px) {
-  #gallery {
+  .gallery {
   -moz-column-count:    2;
   -webkit-column-count: 2;
   column-count:         2;
