@@ -11,7 +11,7 @@ h1 {
 
 h4, span.lead {
 	color: #989898;
-	font-size: 20px;
+	font-size: 24px;
 	margin-top: 40px;
 	font-weight: 300;
 }
@@ -30,6 +30,12 @@ h4, span.lead {
 	max-width: 1000px;
 	padding-bottom: 25px;
 }
+
+p .intro {
+	font-size: ;
+
+}
+
 .row img {
 	width: 100%;
 	max-width: 700px;
@@ -49,7 +55,7 @@ h4, span.lead {
 }
 
 .section {
-	padding-top: 50px;
+	padding-top: 35px;
 	padding-bottom: 50px;
 }
 
@@ -110,6 +116,10 @@ a {
 	color: #31b6a8;
 }
 
+a .insta, a.insta {
+	color:  #31b6a8;
+}
+
 .form-control, .btn {
 	font-weight: 300;
 }
@@ -133,9 +143,9 @@ a {
   margin-top: 5px;
 }
 
-.insta a {
-	color:  #707070;
-	font-size: 16px;
+a.insta {
+/*	color:  #707070;*/
+	font-size: 22px;
 
 }
 
