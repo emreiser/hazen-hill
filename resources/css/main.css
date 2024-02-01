@@ -29,6 +29,7 @@ h4, span.lead {
 .gallery {
 	max-width: 1000px;
 	padding-bottom: 25px;
+	padding-right:  3px;
 }
 
 p .intro {
@@ -94,6 +95,11 @@ p .intro {
 	max-width: 800px;
 }
 
+.about-image {
+	width: 60%;
+	padding-bottom: 40px;
+}
+
 #contact .container {
 	max-width:  600px;
 	margin: 0 auto;
@@ -140,6 +146,7 @@ a .insta, a.insta {
   --bs-btn-disabled-bg: #278e83;
   --bs-btn-disabled-border-color: #278e83;
 
+  padding:  10px 50px;
   margin-top: 5px;
 }
 
@@ -192,6 +199,14 @@ a {
 	#send {
 		width: 50%;
 	}
+
+	.hh-button {
+		width: 100% !important;
+	}
+
+	.about-image {
+	width: 100%;
+}
 
 
 }
