@@ -215,6 +215,11 @@ a {
 		width: 100% !important;
 	}
 
+.shop {
+	display: block;
+	width: 50%;
+}
+
 	.about-image {
 	width: 100%;
 }
