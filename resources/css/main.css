@@ -16,6 +16,11 @@ h4, span.lead {
 	font-weight: 300;
 }
 
+.container {
+	max-width: 800px;
+	margin:  0 auto;
+}
+	
 .top-logo img {
 	width: 100%;
 	max-width: 550px;
@@ -65,8 +70,17 @@ p .intro {
 	padding-bottom: 50px;
 }
 
+.banner-special {
+	width:  100%;
+	padding: 0 5px;
+}
+
 .col-6 {
 	padding-bottom: .5rem!important;
+}
+
+#holiday {
+	padding-bottom: 25px;
 }
 
 #holiday-gallery {
@@ -200,6 +214,7 @@ a {
   .top-logo img {
 		max-width: none;
 	}
+
 	#contact .container {
 		max-width: none;
 	}
